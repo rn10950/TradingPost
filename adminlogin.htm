@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Admin Login DIV Test</title>
+		<script src="jquery.js"></script>
+		<script src="post.js"></script>
+		<!--[if (lt IE 7)]>
+			<link rel="stylesheet" type="text/css" media="screen, projection" href="ie6.css">
+		<![endif]-->
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<link rel="stylesheet" type="text/css" href="./post.css">
+	</head>
+	<body>
+<div id="adminlogindiv">
+	<div id="adminlicont">
+		<div id="ali_close">
+			x
+		</div>
+		<h2 id="admintitle">Administrator Login</h2>
+		<form id="adminform" action="./login/loginapi.php" method="POST">
+			<table id="ali_table">
+				<tr>
+					<td class="ali_text ali_col1">
+						Username:
+					</td>
+					<td>
+						<input type="text" id="ali_user" name="user" class="ali_box">
+					</td>
+				</tr>
+				<tr>
+					<td class="ali_text ali_col1">
+						Password:
+					</td>
+					<td>
+						<input type="password" id="ali_pass" name="pass" class="ali_box">
+					</td>
+				</tr>
+				<tr>
+					<td class="ali_col1">
+					</td>
+					<td id="ali_subtd">
+						<input type="submit" value="Submit" id="ali_submit">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</div>
+	</body>
+</html>
