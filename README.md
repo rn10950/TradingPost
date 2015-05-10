@@ -29,7 +29,7 @@ There are three images in the root directory that you should care about:
 Banner.png is the image you see on the top of the page, and should include your organization's name and number and any other information, images, or quotes/inside jokes	your organization has. Banner.png is 800px wide and 200px tall. Footer.png is the image you see at the bottom if the page and is usually used to link to your charter organization's
 	or your web host's web page. Footer.png is 350px wide and 50px tall. Numbers.png is just a resource for you to get the BSA number patches. Numbers.png is not referenced on the code at all and is only there for you to use as an image source for your photo editing software. These images can be edited in Photoshop (Windows/OSX, commercial) or GIMP (Windows/OSX/Linux, free)	It is recommended that these images have a transparent background.
 
-FILE TREE
+File Tree
 =========
 	/
 	 adminlogin.htm 	- administrator login page
